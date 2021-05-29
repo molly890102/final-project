@@ -19,7 +19,18 @@ a {
     color: black;
 }
 
+#boxc a {
+	text-decoration: none;
+	color: white;
+}
+
 a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+#boxc a:hover {
+	color: white;
 	text-decoration: underline;
 }
 
@@ -162,7 +173,7 @@ a:hover {
 	position: relative;
 	width: 258px;
 	height: 55.33px;
-    top: -1043px;
+    top: -1068px;
     left: 916px;
     text-align: center;
 }
@@ -175,8 +186,8 @@ a:hover {
 	position: relative;
 	width: 194px;
 	height: 76.67px;
-    top: -1030px;
-    left: 945px;
+    top: -1045px;
+    left: 949px;
     text-align: center;
 }
 
@@ -188,7 +199,7 @@ a:hover {
 	position: absolute;
     display: flex;
     flex-direction: column;
-    top: 480px;
+    top: 466px;
     left: 830px;
     display: flex;
     align-items: center;

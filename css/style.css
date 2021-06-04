@@ -1,21 +1,24 @@
-html {
+/*html {
 	background-color: #E8FFF6;
 	box-sizing: border-box;
 	width: 100%;
 }
-
-*,*:before,*:after {
-	box-sizing: inherit;
-}
+*/
 
 body {
+	background-color: #E8FFF6;
+	box-sizing: border-box;
 	padding: 0;
 	margin-top: 5px;/*margin: 5px 15px 0px 15px;*/
     margin-bottom: 5px;
     margin-right: 15px;
     margin-left: 15px;
-	width: 1248px;
+	width: 100%;
 	height: auto;
+}
+
+*,*:before,*:after {
+	box-sizing: inherit;
 }
 
 a {
@@ -50,6 +53,7 @@ a:hover {
 
 .mainarea {
 	height: 915px;
+	margin-right: 15px;
 }
 
 .logoandheader {

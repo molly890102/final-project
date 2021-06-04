@@ -1,6 +1,7 @@
 html {
 	background-color: #E8FFF6;
 	box-sizing: border-box;
+	width: 100%;
 }
 
 *,*:before,*:after {
@@ -378,7 +379,7 @@ a:hover {
     width: 12px;
     height: 12px;
     top: -1367px;
-    left: 725px;
+    left: 724px;
 }
 
 .dot2 {

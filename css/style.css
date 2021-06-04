@@ -9,7 +9,7 @@ html {
 
 body {
 	padding: 0;
-	margin: 5px 15px 0px 15px;
+	margin: 5px 15px 5px 15px;/*margin: 5px 15px 0px 15px;*/
 	width: 100%;
 	height: auto;
 }
@@ -32,6 +32,12 @@ a:hover {
 #boxc a:hover {
 	color: white;
 	text-decoration: underline;
+}
+
+#backto a:hover {
+	color: white;
+	background: linear-gradient(white,#616161);
+	text-decoration: none;
 }
 
 .container {
@@ -352,6 +358,82 @@ a:hover {
     top: -588px;
     left: 595px;
     text-align: center;
+}
+
+.backtolink {
+	width: 70px;
+	height: 35px;
+}
+
+#backto span {
+	width: 70px;
+	height: 35px;
+}
+
+.dot1 {
+	background-color: red;
+	border: 1px solid black;
+	border-radius: 50%;
+	position: relative;
+    width: 12px;
+    height: 12px;
+    top: -1367px;
+    left: 725px;
+}
+
+.dot2 {
+	background-color: red;
+	border: 1px solid black;
+	border-radius: 50%;
+	position: relative;
+    width: 12px;
+    height: 12px;
+    top: -1372px;
+    left: 698px;
+}
+
+.dot3 {
+	background-color: red;
+	border: 1px solid black;
+	border-radius: 50%;
+	position: relative;
+    width: 12px;
+    height: 12px;
+    top: -1264px;
+    left: 765px;
+}
+
+.dot4 {
+	background-color: red;
+	border: 1px solid black;
+	border-radius: 50%;
+	position: relative;
+    width: 12px;
+    height: 12px;
+    top: -1226px;
+    left: 544px;
+}
+
+.dot5 {
+	background-color: red;
+	border: 1px solid black;
+	border-radius: 50%;
+	position: relative;
+    width: 12px;
+    height: 12px;
+    top: -1062px;
+    left: 462px;
+}
+
+.dot6 {
+	background-color: red;
+	border: 1px solid black;
+	border-radius: 50%;
+	position: relative;
+    width: 12px;
+    height: 12px;
+    top: -933px;
+    left: 481px;
 }
 
 /*footer*/
